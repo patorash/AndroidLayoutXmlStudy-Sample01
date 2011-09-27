@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/menu_chapter01"
+        android:id="@+id/menu_chapter01" />
+    <item
+        android:title="@string/menu_chapter02"
+        android:id="@+id/menu_chapter02" />
+    <item
+        android:title="@string/menu_chapter03"
+        android:id="@+id/menu_chapter03" />
+    <item
+        android:title="@string/menu_chapter04"
+        android:id="@+id/menu_chapter04" />
+    <item
+        android:title="@string/menu_chapter05"
+        android:id="@+id/menu_chapter05" />
+    <item
+        android:title="@string/menu_chapter06"
+        android:id="@+id/menu_chapter06" />
+</menu>

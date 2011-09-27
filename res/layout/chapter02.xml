@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- 
+        RelativeLayoutは相対レイアウトです。
+        RelativeLayoutの下のウィジェット類は、親のRelativeLayoutに対して相対的に配置されます。
+        ■がそれです。
+        ■   ■
+        
+          ■
+          
+        ■   ■
+      -->
+    <!-- 親要素に対して左上に配置 -->
+    <TextView
+        android:id="@+id/LeftTop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_left_top" />
+    <!-- 親要素に対して左下に配置 -->
+    <TextView
+        android:id="@+id/LeftBottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_left_bottom" />
+    <!-- 親要素に対して右上に配置 -->
+    <TextView
+        android:id="@+id/RightTop"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_right_top" />
+    <!-- 親要素に対して右下に配置 -->
+    <TextView
+        android:id="@+id/RightBottom"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_right_bottom" />
+    <!-- 親要素に対して中央に配置 -->
+    <TextView
+        android:id="@+id/CenterInParent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_center_in_parent" />
+    <!-- ここから、中央の要素に対して相対配置します。□がそれです。
+         ■   ■
+           □
+          □■□
+           □
+         ■   ■
+     -->
+    <!-- 上
+        layout_aboveで指定されたIDの要素の上に配置されます。
+        横方向で中央揃えするために、layout_centerHorizontalをtrueにしてます。
+     -->
+    <TextView
+        android:id="@+id/above"
+        android:layout_above="@id/CenterInParent"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_above" />
+    <!-- 下
+        layout_belowで指定されたIDの要素の下に配置されます。
+        横方向で中央揃えするために、layout_centerHorizontalをtrueにしてます。
+     -->
+    <TextView
+        android:id="@+id/below"
+        android:layout_below="@id/CenterInParent"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_below" />
+    <!-- 左
+        layout_toLeftOfで指定されたIDの要素の左に配置されます。
+        縦方向で中央揃えするために、layout_centerVerticalをtrueにしてます。
+    -->
+    <TextView
+        android:id="@+id/toLeftOf"
+        android:layout_toLeftOf="@id/CenterInParent"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_to_left_of" />
+    <!-- 右
+        layout_toRightOfで指定されたIDの要素の右に配置されます。
+        縦方向で中央揃えするために、layout_centerVerticalをtrueにしてます。
+    -->
+    <TextView
+        android:id="@+id/toRightOf"
+        android:layout_toRightOf="@id/CenterInParent"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chapter02_to_right_of" />
+</RelativeLayout>

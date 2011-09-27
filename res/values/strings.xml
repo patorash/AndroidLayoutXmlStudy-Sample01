@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sample01</string>
+    <string name="title_chapter01">chapter01(LinearLayout)</string>
+    <string name="title_chapter02">chapter02(RelativeLayout)</string>
+    <string name="title_chapter03">chapter03(横方向に均等配置)</string>
+    <string name="title_chapter04">chapter04(縦方向に均等配置)</string>
+    <string name="title_chapter05">chapter05(スクロールするViewの配置)</string>
+    <string name="title_chapter06">chapter06(フッターを作る方法)</string>
+    <string name="menu_chapter01">chapter01</string>
+    <string name="menu_chapter02">chapter02</string>
+    <string name="menu_chapter03">chapter03</string>
+    <string name="menu_chapter04">chapter04</string>
+    <string name="menu_chapter05">chapter05</string>
+    <string name="menu_chapter06">chapter06</string>
+    <string name="chapter01_linearlayout_vertical">リニアレイアウト 垂直方向(vertical)</string>
+    <string name="chapter01_linearlayout_horizontal">リニアレイアウト 水平方向(horizontal)</string>
+    <string name="chapter01_test_1">test_1</string>
+    <string name="chapter01_test_2">test_2</string>
+    <string name="chapter01_test_3">test_3</string>
+    <string name="chapter01_test_4">test_4</string>
+    <string name="chapter01_test_5">test_5</string>
+    <string name="chapter01_test_6">test_6</string>
+    <string name="chapter01_test_7">test_7</string>
+    <string name="chapter01_test_8">test_8</string>
+    <string name="chapter01_test_9">test_9</string>
+    <string name="chapter02_left_top">左上</string>
+    <string name="chapter02_left_bottom">左下</string>
+    <string name="chapter02_right_top">右上</string>
+    <string name="chapter02_right_bottom">右下</string>
+    <string name="chapter02_center_in_parent">中央</string>
+    <string name="chapter02_above">上</string>
+    <string name="chapter02_below">下</string>
+    <string name="chapter02_to_left_of">左</string>
+    <string name="chapter02_to_right_of">右</string>
+    <string name="chapter03_button1">1</string>
+    <string name="chapter03_button2">2</string>
+    <string name="chapter03_button3">3</string>
+    <string name="chapter03_button4">4</string>
+    <string name="chapter03_button5">5</string>
+    <string name="chapter03_button6">6</string>
+    <string name="chapter03_button7">7</string>
+    <string name="chapter03_button8">8</string>
+    <string name="chapter03_button9">9</string>
+    <string name="chapter04_button1">1</string>
+    <string name="chapter04_button2">2</string>
+    <string name="chapter04_button3">3</string>
+    <string name="chapter04_button4">4</string>
+    <string name="chapter04_button5">5</string>
+    <string name="chapter04_button6">6</string>
+    <string name="chapter04_button7">7</string>
+    <string name="chapter04_button8">8</string>
+    <string name="chapter04_button9">9</string>
+    <string name="chapter06_button">フッターボタン</string>
+    <string name="chapter06_long_text">
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+        あああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+    </string>
+</resources>
